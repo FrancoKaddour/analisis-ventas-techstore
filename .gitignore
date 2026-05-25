@@ -1,0 +1,39 @@
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Checkpoints de Jupyter/Colab
+.ipynb_checkpoints/
+*.ipynb
+
+# Entornos virtuales
+venv/
+env/
+.env/
+.venv/
+
+# Archivos de configuracion local (nunca subir tokens ni credenciales)
+.env
+*.env.local
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de log
+*.log
+
+# Archivos de datos pesados
+*.xlsx
+*.xls
+datos/*.zip
+datos/*.gz
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
